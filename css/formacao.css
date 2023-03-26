@@ -20,7 +20,6 @@
 .formacao-container .subtitulo{
   grid-column: 3;
   justify-self: end;
-  max-width: 4ch;
 }
 .formacao-container-texto{
   grid-row: 1 / 2;
@@ -108,9 +107,9 @@
   }
   .formacao-container .subtitulo{
     display: block;
-    max-width: initial;
     color: #fff;
     justify-self: center;
+    white-space: normal;
   }
   .formacao-container-texto{
     grid-row: 2;
